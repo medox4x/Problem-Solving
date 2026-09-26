@@ -4,3 +4,4 @@ select sell_date,
        group_concat(distinct product separator ',') as products
 from Activities
 group by sell_date;
+#'group_concat' concatinate result in one row 
